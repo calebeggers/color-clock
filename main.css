@@ -1,0 +1,12 @@
+body {
+	margin: 0px;
+}
+
+#clock {
+	text-align: center;
+	line-height: 720px;
+	margin: 0px;
+	font-family: 'Amatica SC', cursive;
+	font-weight: 400;
+	font-size: 100px;
+}
