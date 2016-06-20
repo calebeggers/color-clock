@@ -3,14 +3,6 @@ var checkTime = function (i) {
 	return i;
 }
 
-// var currentTime = new Date ();
-// var m = currentTime.getMinutes();
-// var s = currentTime.getSeconds();
-// var h = currentTime.getHours();
-
-// m = checkTime(m)
-// s = checkTime(s)
-
 var callback = function () {
 	var currentTime = new Date ();
 	var m = currentTime.getMinutes();
