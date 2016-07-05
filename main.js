@@ -10,7 +10,8 @@ var callback = function () {
 	var h = currentTime.getHours();
 	m = checkTime(m)
 	s = checkTime(s)
-	document.getElementById("clock").textContent = h + ":" + m + ":" + s;
+	var time = h + ":" + m + ":" + s;
+	document.getElementById("clock").textContent = time
 }
 
 var interval = window.setInterval(callback, 1000)
@@ -26,4 +27,4 @@ function getRandomColor() {
 
 getRandomColor()
 
-var interval2 = window.setInterval(getRandomColor, 2000)
+var interval2 = window.setInterval(getRandomColor, 5)
